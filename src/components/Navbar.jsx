@@ -22,6 +22,10 @@ const Navbar = () => {
                             {name:"Features",href:"/features"},
                             {name:"Webinars",href:"/webinars"},
                             {name:"Solutions",href:"/solutions"},
+                            {name:"Speakers",href:"/speakers"},
+                            {name:"Pricing",href:"/pricing"},
+                            {name:"FAQ",href:"/faq"},
+                            {name:"Contact",href:"/contact"}
                             
                         ].map((link) => (
                             <a key={link.name}
@@ -34,6 +38,8 @@ const Navbar = () => {
                         }
                     </div>
                 </div>
+                {/* Mobile Menu button */}
+                
             </div>
 
         </div>
